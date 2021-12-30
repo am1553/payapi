@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/payapi/static/css/main.07b0a0cf.css",
+    "main.js": "/payapi/static/js/main.92e5878d.js",
+    "index.html": "/payapi/index.html",
+    "main.07b0a0cf.css.map": "/payapi/static/css/main.07b0a0cf.css.map",
+    "main.92e5878d.js.map": "/payapi/static/js/main.92e5878d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07b0a0cf.css",
+    "static/js/main.92e5878d.js"
+  ]
+}
