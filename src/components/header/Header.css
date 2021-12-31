@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=Header.css.map */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem 1.5rem;
+}
+
+.header button {
+  background-color: transparent;
+  border: none;
+  z-index: 100;
+}
+/*# sourceMappingURL=Header.css.map */

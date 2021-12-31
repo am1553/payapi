@@ -1,13 +1,23 @@
 import React from 'react'
-import './Navigation.css'
+import { Link } from 'react-router-dom'
 
-function Navigation() {
+import './Navigation.css'
+function Navigation(props) {
+
+    const handleClick = () => {
+        props.active = 'navigation'
+    }
+    
     return (
-        <div>
-            <h1>Pricing</h1>
-            <h1>About</h1>
-            <h1>Contact</h1>
-            <button>Schedule a Demo</button>
+        <div className={ props.active }>
+            <hr></hr>
+            <div className="links">
+                <Link to='/' className='linkComponent' onClick={handleClick}><span className='link'>Home</span></Link>
+                <Link to='/about' className='linkComponent' onClick={handleClick}><span className='link'>About</span></Link>
+                <Link to='/contact' className='linkComponent' onClick={handleClick}><span className='link'>Contact</span></Link>
+                <Link to='/pricing' className='linkComponent' onClick={handleClick}><span className='link'>Pricing</span></Link>
+            </div>
+            <button className='btn-text'>Schedule a Demo</button>
         </div>
     )
 }

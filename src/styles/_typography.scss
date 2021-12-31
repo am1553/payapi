@@ -1,21 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  overflow: hidden;
-}
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
-}
-
-body img {
-  display: block;
-}
-
 .heading-one-large,
 .heading-one-small,
 h2,
@@ -48,12 +30,10 @@ h2 {
   font-size: clamp(1.5rem, 5vw, 2rem);
   line-height: clamp(2rem, 5vw, 2.5rem);
 }
-
 .heading-three-small {
   font-size: 18px;
   line-height: 25px;
 }
-
 h4 {
   font-size: 24px;
   line-height: 32px;
@@ -63,9 +43,8 @@ body {
   font-size: 15px;
   line-height: 28px;
 }
-
 .links {
-  color: #fbfcfe;
+  color: $link-water-white;
   font-size: 1.25rem;
   font-family: "Public Sans", sans-serif;
   font-weight: 700;
@@ -76,6 +55,5 @@ body {
   font-size: 0.9375rem;
   font-weight: 700;
   letter-spacing: -0.12px;
-  color: #fbfcfe;
+  color: $link-water-white;
 }
-/*# sourceMappingURL=index.css.map */

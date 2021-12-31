@@ -1,1 +1,66 @@
-/* No CSS *//*# sourceMappingURL=Navigation.css.map */
+.navigation {
+  background-color: #1b262f;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -100vw;
+  width: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+.navigation hr {
+  width: 80%;
+  border-bottom: 1px solid #97979704;
+  margin: 6rem 0 3rem 0;
+}
+
+.navigation .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navigation .links .linkComponent {
+  text-decoration: none;
+  z-index: 50;
+}
+
+.navigation .links .link {
+  display: block;
+  margin: 1rem 0;
+  opacity: 0.7;
+  color: #fbfcfe;
+}
+
+.navigation button {
+  height: 3rem;
+  background-color: #ba4270;
+  width: 80%;
+  border-radius: 2rem;
+  margin: 2rem 0;
+}
+
+.navigation-active {
+  right: 0;
+  width: 80%;
+}
+/*# sourceMappingURL=Navigation.css.map */
