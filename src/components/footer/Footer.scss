@@ -1,0 +1,28 @@
+.footer {
+  background-color: #1b262f;
+  background-image: url(../../../public/assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  .link-component {
+    text-decoration: none;
+  }
+  .footer-links {
+    margin: 2rem 0;
+  }
+  .socials {
+    display: flex;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 1rem;
+    }
+  }
+}

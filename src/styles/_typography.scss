@@ -10,7 +10,9 @@ h4 {
 body {
   font-family: "Public Sans", sans-serif;
 }
-
+p {
+  color: $light-san-juan-blue;
+}
 .heading-one-large {
   font-size: clamp(3.5rem, 5vw, 4.5rem);
   line-height: 72px;
@@ -25,7 +27,8 @@ body {
 
 h2 {
   font-size: clamp(2rem, 5vw, 3rem);
-  line-height: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: clamp(3rem, 10vw, 5rem);
+  color: $link-water-white;
 }
 
 .heading-three-large {
@@ -35,6 +38,7 @@ h2 {
 .heading-three-small {
   font-size: 18px;
   line-height: 25px;
+  color: #36536b;
 }
 h4 {
   font-size: 24px;
@@ -48,6 +52,13 @@ body {
 .links {
   color: $link-water-white;
   font-size: 1.25rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+}
+
+.footer-links {
+  color: $light-san-juan-blue;
+  font-size: 15px;
   font-family: "Public Sans", sans-serif;
   font-weight: 700;
 }

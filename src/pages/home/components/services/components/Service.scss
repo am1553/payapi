@@ -1,0 +1,18 @@
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  img {
+    margin: 2rem 0 1rem;
+  }
+  h3 {
+    margin-top: 1rem;
+  }
+  p {
+    margin: 1rem 0;
+  }
+}

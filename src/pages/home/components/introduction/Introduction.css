@@ -10,29 +10,6 @@
   height: 100%;
 }
 
-.introduction input,
-.introduction button {
-  display: block;
-  width: 90%;
-  margin: 1rem auto;
-  border-radius: 2rem;
-  border: none;
-}
-
-.introduction input {
-  background-color: #fbfcfe;
-  padding: 1rem 2rem;
-  -webkit-box-shadow: 20px 0px 30px rgba(133, 133, 133, 0.3);
-          box-shadow: 20px 0px 30px rgba(133, 133, 133, 0.3);
-  outline: none;
-  color: #36536b;
-}
-
-.introduction button {
-  padding: 1rem 2rem;
-  background-color: #ba4270;
-}
-
 .introduction p {
   text-align: center;
   color: #6c8294;

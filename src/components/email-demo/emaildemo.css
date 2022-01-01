@@ -1,0 +1,28 @@
+.email-demo {
+  padding-top: 1.5rem;
+}
+
+.email-demo input,
+.email-demo button {
+  display: block;
+  width: 90%;
+  max-width: 25rem;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  border: none;
+}
+
+.email-demo input {
+  background-color: #fbfcfe;
+  padding: 1rem 2rem;
+  -webkit-box-shadow: 20px 0px 20px rgba(133, 133, 133, 0.3);
+          box-shadow: 20px 0px 20px rgba(133, 133, 133, 0.3);
+  outline: none;
+  color: #36536b;
+}
+
+.email-demo button {
+  padding: 1rem 2rem;
+  background-color: #ba4270;
+}
+/*# sourceMappingURL=emaildemo.css.map */

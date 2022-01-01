@@ -1,0 +1,23 @@
+.email-demo {
+  padding-top: 1.5rem;
+  input,
+  button {
+    display: block;
+    width: 90%;
+    max-width: 25rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    border: none;
+  }
+  input {
+    background-color: #fbfcfe;
+    padding: 1rem 2rem;
+    box-shadow: 20px 0px 20px rgba(133, 133, 133, 0.3);
+    outline: none;
+    color: #36536b;
+  }
+  button {
+    padding: 1rem 2rem;
+    background-color: #ba4270;
+  }
+}

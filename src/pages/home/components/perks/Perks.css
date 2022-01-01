@@ -1,0 +1,19 @@
+.perks .perk {
+  width: 90%;
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.perks .perk img {
+  width: 100%;
+}
+
+.perks .perk p {
+  margin: 1rem 0;
+}
+
+.perks .perk:last-child img {
+  margin-top: 3rem;
+}
+/*# sourceMappingURL=Perks.css.map */

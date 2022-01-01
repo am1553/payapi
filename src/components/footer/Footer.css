@@ -1,0 +1,49 @@
+.footer {
+  background-color: #1b262f;
+  background-image: url(../../../public/assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem 0;
+}
+
+.footer .link-component {
+  text-decoration: none;
+}
+
+.footer .footer-links {
+  margin: 2rem 0;
+}
+
+.footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .socials li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1rem;
+}
+/*# sourceMappingURL=Footer.css.map */

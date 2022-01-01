@@ -1,0 +1,43 @@
+.clients {
+  background-color: #1b262f;
+  margin: 5rem 0 3rem;
+  background-image: url(../../../../../public/assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .logo-wrapper {
+    width: 80%;
+    max-width: 30rem;
+    margin: 2rem 0;
+    padding-top: 3rem;
+    img {
+      width: 80%;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg)
+        brightness(103%) contrast(101%);
+    }
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+  }
+  .text-wrapper {
+    text-align: center;
+    max-width: 30rem;
+    p {
+      margin: 1rem 0 0;
+    }
+  }
+  button {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    background-color: transparent;
+    margin: 4rem 0;
+  }
+}

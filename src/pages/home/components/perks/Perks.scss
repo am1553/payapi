@@ -1,0 +1,19 @@
+.perks {
+  .perk {
+    width: 90%;
+    max-width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    img {
+      width: 100%;
+    }
+    p {
+      margin: 1rem 0;
+    }
+  }
+  .perk:last-child {
+    img {
+      margin-top: 3rem;
+    }
+  }
+}
