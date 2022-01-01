@@ -8,6 +8,8 @@ import Pricing from './pages/pricing/Pricing'
 
 
 function App() {
+
+
   return (
     <Router>
       <div className="App">

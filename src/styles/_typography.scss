@@ -17,8 +17,10 @@ body {
 }
 
 .heading-one-small {
-  font-size: clamp(2.25rem, 5vw, 3.5rem);
-  line-height: clamp(2.25rem, 5vw, 3.5rem);
+  font-size: clamp(2.25rem, 2vw, 3.5rem);
+  line-height: clamp(2.25rem, 12vw, 3.5rem);
+  color: $san-juan-blue;
+  overflow-y: hidden;
 }
 
 h2 {
