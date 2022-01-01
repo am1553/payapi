@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/payapi/static/css/main.07b0a0cf.css",
-    "main.js": "/payapi/static/js/main.92e5878d.js",
+    "main.css": "/payapi/static/css/main.7f12e139.css",
+    "main.js": "/payapi/static/js/main.e21d35fe.js",
     "index.html": "/payapi/index.html",
-    "main.07b0a0cf.css.map": "/payapi/static/css/main.07b0a0cf.css.map",
-    "main.92e5878d.js.map": "/payapi/static/js/main.92e5878d.js.map"
+    "static/media/bg-pattern-circle.svg": "/payapi/static/media/bg-pattern-circle.2f3a4c70060369763a55.svg",
+    "main.7f12e139.css.map": "/payapi/static/css/main.7f12e139.css.map",
+    "main.e21d35fe.js.map": "/payapi/static/js/main.e21d35fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.07b0a0cf.css",
-    "static/js/main.92e5878d.js"
+    "static/css/main.7f12e139.css",
+    "static/js/main.e21d35fe.js"
   ]
 }
