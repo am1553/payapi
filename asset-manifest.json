@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.6872c6bf.css",
-    "main.js": "./static/js/main.e21d35fe.js",
-    "index.html": "./index.html",
-    "static/media/bg-pattern-circle.svg": "./static/media/bg-pattern-circle.2f3a4c70060369763a55.svg",
-    "main.6872c6bf.css.map": "./static/css/main.6872c6bf.css.map",
-    "main.e21d35fe.js.map": "./static/js/main.e21d35fe.js.map"
+    "main.css": "/payapi/home/static/css/main.09cfe7a9.css",
+    "main.js": "/payapi/home/static/js/main.e21d35fe.js",
+    "index.html": "/payapi/home/index.html",
+    "static/media/bg-pattern-circle.svg": "/payapi/home/static/media/bg-pattern-circle.2f3a4c70060369763a55.svg",
+    "main.09cfe7a9.css.map": "/payapi/home/static/css/main.09cfe7a9.css.map",
+    "main.e21d35fe.js.map": "/payapi/home/static/js/main.e21d35fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.6872c6bf.css",
+    "static/css/main.09cfe7a9.css",
     "static/js/main.e21d35fe.js"
   ]
 }
