@@ -1,1 +1,115 @@
-/* No CSS *//*# sourceMappingURL=Contact.css.map */
+.contact h2 {
+  width: 80%;
+  margin: 0 auto;
+  color: #36536b;
+}
+
+.contact form {
+  width: 80%;
+  margin: 2rem auto;
+  max-width: 30rem;
+}
+
+.contact form label {
+  display: block;
+  color: #36536b;
+  padding: 0 1rem;
+  opacity: 0.6;
+  margin-top: 1rem;
+}
+
+.contact form input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #36536b;
+  background: transparent;
+  width: 100%;
+}
+
+.contact form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #36536b;
+  outline: none;
+  padding: 1rem 1rem 0;
+  color: #36536b;
+  height: 5rem;
+  width: 100%;
+}
+
+.contact form .confirmation-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.contact form .confirmation-wrapper label {
+  text-align: left;
+  padding: 0 0 0 1rem;
+}
+
+.contact form .confirmation-wrapper .checkbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact form .confirmation-wrapper .checkbox-container input {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.contact form button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  color: #36536b;
+  background-color: transparent;
+  border: 1px solid #36536b;
+  margin: 2rem 0;
+}
+
+.contact .ready {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.contact .contact-clients h4 {
+  color: #36536b;
+  width: 90%;
+  margin: 2rem auto;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.contact .contact-clients .clients-wrapper {
+  width: 90%;
+  max-width: 20rem;
+  margin: 2rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-column-gap: 2rem;
+  grid-row-gap: 3rem;
+}
+
+.contact .contact-clients .clients-wrapper img {
+  width: 100%;
+}
+/*# sourceMappingURL=Contact.css.map */

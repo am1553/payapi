@@ -1,0 +1,93 @@
+.contact {
+  h2 {
+    width: 80%;
+    margin: 0 auto;
+    color: #36536b;
+  }
+
+  form {
+    width: 80%;
+    margin: 2rem auto;
+    max-width: 30rem;
+    label {
+      display: block;
+      color: #36536b;
+      padding: 0 1rem;
+      opacity: 0.6;
+      margin-top: 1rem;
+    }
+    input {
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #36536b;
+      background: transparent;
+      width: 100%;
+    }
+    textarea {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #36536b;
+      outline: none;
+      padding: 1rem 1rem 0;
+      color: #36536b;
+      height: 5rem;
+      width: 100%;
+    }
+    .confirmation-wrapper {
+      display: flex;
+      flex-direction: row-reverse;
+      label {
+        text-align: left;
+        padding: 0 0 0 1rem;
+      }
+      .checkbox-container {
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        input {
+          height: 1.5rem;
+          width: 1.5rem;
+        }
+      }
+    }
+    button {
+      width: 10rem;
+      height: 3rem;
+      border-radius: 1.5rem;
+      color: #36536b;
+      background-color: transparent;
+      border: 1px solid #36536b;
+      margin: 2rem 0;
+    }
+  }
+
+  .ready {
+    text-align: center;
+    margin: 4rem 0;
+  }
+
+  .contact-clients {
+    h4 {
+      color: #36536b;
+      width: 90%;
+      margin: 2rem auto;
+      text-align: center;
+      opacity: 0.8;
+    }
+    .clients-wrapper {
+      width: 90%;
+      max-width: 20rem;
+      margin: 2rem auto;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-items: center;
+      align-items: center;
+      grid-column-gap: 2rem;
+      grid-row-gap: 3rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
