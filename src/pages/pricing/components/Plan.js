@@ -25,7 +25,7 @@ function Plan(props) {
             <div className="ready">
                  <h2>Ready to start?</h2>
                 <EmailDemo updatePlaceholder={placeholder}/>
-             </div>
+            </div>
         </div>
     )
 }

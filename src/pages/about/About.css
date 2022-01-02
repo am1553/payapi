@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=About.css.map */
+.about h2 {
+  color: #36536b;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about .ready {
+  margin: 5rem 0;
+}
+
+.about img {
+  margin: 4rem 0 2rem;
+}
+
+.about hr {
+  border: none;
+  height: 1px;
+  width: 80%;
+  margin: 1rem auto;
+  background-color: #36536b;
+  opacity: 0.3;
+}
+/*# sourceMappingURL=About.css.map */
