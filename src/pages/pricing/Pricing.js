@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Plan from './components/Plan'
 import './Pricing.css'
 
 function Pricing() {
+
     return (
-        <div>
-            <h1>Pricing</h1>
+        <div className='pricing'>
+            <h1 className='heading-one-small'>Pricing</h1>
+            <Plan />
         </div>
     )
 }

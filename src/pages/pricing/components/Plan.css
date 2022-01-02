@@ -1,0 +1,49 @@
+.plan .ready {
+  margin: 5rem 0;
+}
+
+.plan .plan-container hr {
+  border: none;
+  height: 1px;
+  background-color: #6c8294;
+  opacity: 0.3;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 30rem;
+}
+
+.plan .plan-container .lists {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.plan .plan-container .lists li {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  color: #36536b;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.plan .plan-container .lists li img {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-self: flex-end;
+  margin-right: 2rem;
+}
+
+.plan .plan-container .lists li .opacity {
+  opacity: 0.5;
+}
+
+.plan .plan-container .lists li span {
+  -ms-grid-column: 2;
+  grid-column: 2 / 2;
+}
+/*# sourceMappingURL=Plan.css.map */

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './Header.css'
 import Navigation from '../navigation/Navigation'
 function Header() {
-
     const [menu, setMenu] = useState(false)
     const [menuBtnImg, setMenuBtnImg] = useState('./assets/shared/mobile/menu.svg')
     const [navPanel, setNavPanel] = useState()
@@ -40,7 +39,21 @@ function Header() {
                 }
             )
         }
-        setNavPanel(<Navigation active={menu ? 'navigation' : 'navigation navigation-active'} />)
+
+        const closePanel = () => {
+            setMenuBtnImg('./assets/shared/mobile/menu.svg')
+            setCircleOpen(
+                {
+                    position: "absolute",
+                    top: "-650px",
+                    right: "-450px",
+                    zIndex: 10
+                }
+            )
+            setMenu(false)
+            setNavPanel(<Navigation active='navigation'/>)
+        }
+        setNavPanel(<Navigation active={menu ? 'navigation' : 'navigation navigation-active'} checkPanel={ closePanel }/>)
     }
 
     return (

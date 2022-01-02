@@ -18,4 +18,8 @@
 .introduction p strong {
   color: #36536b;
 }
+
+.introduction .linkComponent {
+  text-decoration: none;
+}
 /*# sourceMappingURL=Introduction.css.map */

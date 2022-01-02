@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,cADY,CACZ,MAAM,CAAC;EACL,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,MAAM;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,SAAS;EACjB,gBAAgB,EAAE,WAAW;EAC7B,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "AccessBtn.scss"
+    ],
+    "names": [],
+    "file": "AccessBtn.css"
+}

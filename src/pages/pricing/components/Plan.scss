@@ -1,0 +1,39 @@
+.plan {
+  .ready {
+    margin: 5rem 0;
+  }
+  .plan-container {
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #6c8294;
+      opacity: 0.3;
+      width: 80%;
+      margin: 0 auto;
+      max-width: 30rem;
+    }
+    .lists {
+      width: 80%;
+      margin: 2rem auto;
+      li {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        img {
+          grid-column: 1 / 2;
+          align-self: center;
+          justify-self: flex-end;
+          margin-right: 2rem;
+        }
+        .opacity {
+          opacity: 0.5;
+        }
+        span {
+          grid-column: 2 / 2;
+        }
+        color: #36536b;
+        font-size: 1rem;
+        line-height: 1.75rem;
+      }
+    }
+  }
+}

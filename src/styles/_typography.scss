@@ -16,6 +16,7 @@ p {
 .heading-one-large {
   font-size: clamp(3.5rem, 5vw, 4.5rem);
   line-height: 72px;
+  color: $san-juan-blue;
 }
 
 .heading-one-small {
@@ -43,6 +44,7 @@ h2 {
 h4 {
   font-size: 24px;
   line-height: 32px;
+  color: $dark-pink;
 }
 
 body {
